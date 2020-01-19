@@ -1,3 +1,6 @@
+from scipy.stats import boxcox
+
+
 def find_best_box_cox(data,target_var,predictor_var):
     
     box_cox = [-2,-1, 0, 1, 2]
